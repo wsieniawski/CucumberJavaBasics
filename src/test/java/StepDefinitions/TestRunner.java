@@ -10,8 +10,7 @@ import io.cucumber.junit.CucumberOptions;
 		monochrome = true,
 		//plugin = {"pretty", "html:target/HtmlReports"}
 		//plugin = {"pretty", "json:target/JSONReports/report.json"}
-		plugin = {"pretty", "junit:target/JUnitReports/report.xml"},
-		tags="@smoketest"
+		plugin = {"pretty", "junit:target/JUnitReports/report.xml"}
 )
 public class TestRunner {
 
